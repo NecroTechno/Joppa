@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<genotypes>
+  <genotype Name="Mutated Human" MutationPoints="12" StatPoints="44" AllowedMutationCategories="*" RandomWeight="90" DisplayName="Mutated Human" Subtypes="Callings" Class="" Code="b" Skills="Tactics_Run,Survival_Camp" Tile="creatures/sw_nomad.bmp" BodyObject="Humanoid" BaseHPGain="1-4" BaseSPGain="50" BaseMPGain="1">
+    <stat Name="Strength" Minimum="10" Maximum="24"></stat>
+    <stat Name="Agility" Minimum="10" Maximum="24"></stat>
+    <stat Name="Toughness" Minimum="10" Maximum="24"></stat>
+    <stat Name="Intelligence" Minimum="10" Maximum="24"></stat>
+    <stat Name="Willpower" Minimum="10" Maximum="24"></stat>
+    <stat Name="Ego" Minimum="10" Maximum="24"></stat>
+    <chargeninfo>   &amp;c&#249;&amp;y Mutations
+   &amp;c&#249;&amp;y Moderate starting attributes</chargeninfo>
+  </genotype>
+
+  <genotype Name="True Kin" MutationPoints="0" StatPoints="38" AllowedMutationCategories="" CyberneticsLicensePoints="2" RandomWeight="10" DisplayName="True Kin" RestrictedGender="male,female" Subtypes="Castes" Class="" Code="a" Skills="Persuasion_RebukeRobot,Tactics_Run,Survival_Camp" Reputation="Templar:600" Tile="creatures/sw_nomad.bmp" BodyObject="Humanoid" BaseHPGain="1-4" BaseSPGain="70" BaseMPGain="0">
+    <stat Name="Strength" Minimum="12" Maximum="24"></stat>
+    <stat Name="Agility" Minimum="12" Maximum="24"></stat>
+    <stat Name="Toughness" Minimum="12" Maximum="24"></stat>
+    <stat Name="Intelligence" Minimum="12" Maximum="24"></stat>
+    <stat Name="Willpower" Minimum="12" Maximum="24"></stat>
+    <stat Name="Ego" Minimum="12" Maximum="24"></stat>
+    <chargeninfo>   &amp;c&#249;&amp;y High starting attributes
+   &amp;c&#249;&amp;y Access to cybernetics
+   &amp;c&#249;&amp;y &amp;C20&amp;y bonus skill points each level
+   &amp;c&#249;&amp;y Bonus resistances based on arcology of origin
+   &amp;c&#249;&amp;y May rebuke robots
+   &amp;c&#249;&amp;y +600 reputation with &amp;CPutus Templar</chargeninfo>
+  </genotype>
+
+</genotypes>

@@ -1,0 +1,3 @@
+<p>{{ title }}</p>
+<p>Genotype: {{ form_result.genotype }}</p>
+<p>Subtype: {{ form_result.subtype }}</p>

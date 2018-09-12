@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<subtypes>
+  <class ID="Castes" ChargenTitle="Choose Arcology &amp;&amp; Caste" SingularTitle="caste">
+    <category DisplayName="&amp;GThe Toxic Arboreta of Ekuemekiyye, the Holy City">
+
+      <subtype Name="Horticulturist" Code="a" Skills="CookingAndGathering,CookingAndGathering_Harvestry,Axe,Axe_Expertise,Rifles,Rifle_SteadyHands,Survival_JungleSurvival" Gear="StartingGear_Horticulturist" Tile="creatures/caste_1.bmp" DetailColor="g">
+        <stat Name="Intelligence" Bonus="3"></stat>
+        <stat Name="BleedResistance" Bonus="10"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+10&amp;y Bleeding Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Intelligence
+          &amp;c&#249;&amp;y Cooking and Gathering
+          &amp;c&#249;&amp;y Harvestry
+          &amp;c&#249;&amp;y Axe Proficiency
+          &amp;c&#249;&amp;y Steady Hands (Bow &amp; Rifles)
+          &amp;c&#249;&amp;y Wilderness Lore: Jungles
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Priest of All Suns" Code="b" Skills="Cudgel,Cudgel_Expertise,Firstaid,Firstaid_StaunchWounds,Firstaid_Heal,Persuasion,Persuasion_SnakeOiler,Persuasion_Intimidate,Survival_JungleSurvival" Gear="StartingGear_PriestOfAllSuns" Tile="creatures/caste_2.bmp" DetailColor="Y">
+        <stat Name="Ego" Bonus="3"></stat>
+        <stat Name="BleedResistance" Bonus="10"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+10&amp;y Bleeding Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Ego
+          &amp;c&#249;&amp;y Cudgel Proficiency
+          &amp;c&#249;&amp;y Staunch Wounds
+          &amp;c&#249;&amp;y Heal
+          &amp;c&#249;&amp;y Snake Oiler
+          &amp;c&#249;&amp;y Intimidate
+          &amp;c&#249;&amp;y Wilderness Lore: Jungles
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Priest of All Moons" Code="c" Skills="Axe,Axe_Expertise,CookingAndGathering_Butchery,Discipline_Lionheart,Endurance_PoisonTolerance,Survival_JungleSurvival" Gear="StartingGear_PriestofAllMoons" Tile="creatures/caste_3.bmp" DetailColor="W">
+        <stat Name="Willpower" Bonus="2"></stat>
+        <stat Name="Toughness" Bonus="2"></stat>
+        <stat Name="BleedResistance" Bonus="10"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+10&amp;y Bleeding Resist
+          &amp;c&#249;&amp;y &amp;C+2&amp;y Willpower, &amp;y &amp;C+2&amp;y Toughness
+          &amp;c&#249;&amp;y Axe Proficiency
+          &amp;c&#249;&amp;y Butchery
+          &amp;c&#249;&amp;y Lionheart
+          &amp;c&#249;&amp;y Poison Tolerance
+          &amp;c&#249;&amp;y Wilderness Lore: Jungles
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Syzygyrior" Code="d" Skills="Dual_Wield,Dual_Wield_Fussilade,Dual_Wield_Offhand_Strikes,Dual_Wield_Ambidexterity,Survival_JungleSurvival" Gear="StartingGear_Syzygyrior" Tile="creatures/caste_4.bmp" DetailColor="g">
+        <stat Name="Agility" Bonus="3"></stat>
+        <stat Name="BleedResistance" Bonus="10"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+10&amp;y Bleeding Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Agility
+          &amp;c&#249;&amp;y Flurry
+          &amp;c&#249;&amp;y Off-hand Strikes
+          &amp;c&#249;&amp;y Ambidexterity
+          &amp;c&#249;&amp;y Wilderness Lore: Jungles
+        </chargeninfo>
+      </subtype>
+
+    </category>
+
+    <category DisplayName="&amp;CThe Ice-Sheathed Arcology of Ibul">
+
+      <subtype Name="Artifex" Code="e" Skills="Tinkering,Tinkering_GadgetInspector,Tinkering_Repair,Tinkering_Disassemble,Tinkering_DeployTurret,Tinkering_Tinker1,Tinkering_Tinker2" Gear="StartingGear_Artifex" Tile="creatures/caste_5.bmp" DetailColor="c">
+        <stat Name="Intelligence" Bonus="3"></stat>
+        <stat Name="ColdResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Cold Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Intelligence
+          &amp;c&#249;&amp;y Gadget Inspector
+          &amp;c&#249;&amp;y Repair
+          &amp;c&#249;&amp;y Deploy Turret
+          &amp;c&#249;&amp;y Tinker I, Tinker II
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Consul" Code="f" Skills="Persuasion_InspiringPresence,Persuasion_Proselytize" Gear="StartingGear_Consul" Tile="creatures/caste_6.bmp" DetailColor="c">
+        <stat Name="Ego" Bonus="3"></stat>
+        <stat Name="ColdResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Cold Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Ego
+          &amp;c&#249;&amp;y Proselytize, Inspiring Presence
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Praetorian" Code="g" Skills="LongBlades2,LongBlades2Proficiency,Shield,Shield_Block,Shield_Slam,Rifles,Rifle_SteadyHands" Gear="StartingGear_Praetorian" Tile="creatures/caste_7.bmp" DetailColor="c">
+        <stat Name="Strength" Bonus="2"></stat>
+        <stat Name="Toughness" Bonus="1"></stat>
+        <stat Name="Willpower" Bonus="1"></stat>
+        <stat Name="ColdResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Cold Resist
+          &amp;c&#249;&amp;y &amp;C+2&amp;y Strength&amp;y &amp;C+1&amp;y Toughness
+          &amp;c&#249;&amp;y &amp;C+1&amp;y Willpower
+          &amp;c&#249;&amp;y Long Blade Proficiency
+          &amp;c&#249;&amp;y Block, Shield Slam
+          &amp;c&#249;&amp;y Steady Hands (Bows &amp; Rifles)
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Eunuch" Code="h" Skills="ShortBlades,ShortBlades_Expertise,ShortBlades_Hobble,Pistol,Pistol_SteadyHands,Pistol_WeakSpotter,Acrobatics,Acrobatics_Dodge,Tactics" Gear="StartingGear_Eunuch" Tile="creatures/caste_8.bmp" DetailColor="c">
+        <stat Name="Agility" Bonus="2"></stat>
+        <stat Name="Intelligence" Bonus="2"></stat>
+        <stat Name="ColdResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Cold Resist
+          &amp;c&#249;&amp;y &amp;C+2&amp;y Agility&amp;y &amp;C+2&amp;y Intelligence
+          &amp;c&#249;&amp;y Short Blade Proficiency, Hobble
+          &amp;c&#249;&amp;y Steady Hands (Pistols), Weak Spotter
+          &amp;c&#249;&amp;y Spry, Hurdle, Swift Reflexes
+        </chargeninfo>
+      </subtype>
+
+    </category>
+
+    <category DisplayName="&amp;RThe Crustal Mortars of Yawningmoon">
+
+      <subtype Name="Child of the Hearth" Code="i" Skills="Cudgel,Cudgel_Expertise,Cudgel_Slam,HeavyWeapons,HeavyWeapons_StrappingShoulders,Endurance_Calloused" Gear="StartingGear_ChildoftheHearth" Tile="creatures/caste_9.bmp" DetailColor="r">
+        <stat Name="Strength" Bonus="3"></stat>
+        <stat Name="HeatResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Heat Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Strength
+          &amp;c&#249;&amp;y Cudgel Proficiency, Slam
+          &amp;c&#249;&amp;y Strapping Shoulder
+          &amp;c&#249;&amp;y Calloused
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Child of the Wheel" Code="j" Skills="ShortBlades,ShortBlades_Expertise,Axe,Axe_Expertise,Axe_Cleave,Dual_Wield,Dual_Wield_Offhand_Strikes,Discipline_IronMind" Gear="StartingGear_ChildoftheWheel" Tile="creatures/caste_10.bmp" DetailColor="r">
+        <stat Name="Agility" Bonus="2"></stat>
+        <stat Name="Strength" Bonus="1"></stat>
+        <stat Name="Ego" Bonus="1"></stat>
+        <stat Name="HeatResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Heat Resist
+          &amp;c&#249;&amp;y &amp;C+2&amp;y Agility&amp;y &amp;C+1&amp;y Strength
+          &amp;c&#249;&amp;y &amp;C+1&amp;y Ego
+          &amp;c&#249;&amp;y Short Blade Proficiency
+          &amp;c&#249;&amp;y Axe Proficiency, Cleave
+          &amp;c&#249;&amp;y Off-hand Strikes
+          &amp;c&#249;&amp;y Iron Mind
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Child of the Deep" Code="k" Skills="HeavyWeapons,HeavyWeapons_StrappingShoulders,HeavyWeapons_Tank,Endurance,Endurance_ShakeItOff,Survival_MountainsSurvival,Survival_DesertCanyonSurvival" Gear="StartingGear_ChildoftheDeep" Tile="creatures/caste_11.bmp" DetailColor="r">
+        <stat Name="Toughness" Bonus="3"></stat>
+        <stat Name="HeatResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Heat Resist
+          &amp;c&#249;&amp;y &amp;C+3&amp;y Toughness
+          &amp;c&#249;&amp;y Strapping Shoulder, Tank
+          &amp;c&#249;&amp;y Shake It Off
+          &amp;c&#249;&amp;y Wilderness Lore: Mountains
+          &amp;c&#249;&amp;y Wilderness Lore: Canyons
+        </chargeninfo>
+      </subtype>
+
+      <subtype Name="Fuming God-Child" Code="l" Skills="Discipline,Discipline_Meditate,Discipline_FastingWay,Discipline_Lionheart,Endurance_PoisonTolerance,Persuasion,Persuasion_Intimidate" Gear="StartingGear_FumingGodChild" Tile="creatures/caste_12.bmp" DetailColor="r">
+        <stat Name="Willpower" Bonus="4"></stat>
+        <stat Name="HeatResistance" Bonus="15"></stat>
+        <chargeninfo>
+          &amp;c&#249;&amp;y &amp;C+15&amp;y Heat Resist
+          &amp;c&#249;&amp;y &amp;C+4&amp;y Willpower
+          &amp;c&#249;&amp;y Poison Tolerance
+          &amp;c&#249;&amp;y Meditate
+          &amp;c&#249;&amp;y Lionheart
+          &amp;c&#249;&amp;y Fasting Way
+          &amp;c&#249;&amp;y Intimidate
+        </chargeninfo>
+      </subtype>
+
+    </category>
+  </class>
+
+  <class ID="Callings" ChargenTitle="Choose Calling" SingularTitle="calling">
+
+    <subtype Name="Apostle" Code="a" Skills="Persuasion,Persuasion_Intimidate,Persuasion_Proselytize,Customs,Customs_Tactful" Gear="StartingGear_Apostle" Tile="creatures/caste_13.bmp" DetailColor="m">
+      <stat Name="Ego" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Ego
+        &amp;c&#249;&amp;y Skills: Intimidate, Proselytize, Tactful
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Arconaut" Code="b" Skills="ShortBlades,ShortBlades_Expertise,Tinkering,Tinkering_GadgetInspector,Tinkering_Scavenger,Acrobatics,Acrobatics_Dodge" Gear="StartingGear_Arconaut" Tile="creatures/caste_14.bmp" DetailColor="Y">
+      <stat Name="Agility" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Agility
+        &amp;c&#249;&amp;y Skills: Gadget Inspector, Scavenger, Spry
+        &amp;c&#249;&amp;y Dodge, Short Blade Expertise
+        &amp;c&#249;&amp;y Starts with random junk and artifacts
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Greybeard" Code="c" Skills="Cudgel,Cudgel_Expertise,Persuasion_Berate,Endurance_Calloused" Gear="StartingGear_Greybeard" Reputation="Bears:100" Tile="creatures/caste_15.bmp" DetailColor="w">
+      <stat Name="Willpower" Bonus="3"></stat>
+      <stat Name="Strength" Bonus="-1"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+3&amp;y Willpower, &amp;R-1&amp;y Strength
+        &amp;c&#249;&amp;y Skills: Cudgel Proficiency, Berate, Calloused
+        &amp;c&#249;&amp;y +100 reputation with &amp;Cbears
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Gunslinger" Code="d" Skills="Pistol,Pistol_SteadyHands,Pistol_WeakSpotter" Gear="StartingGear_Gunslinger" Reputation="Strangers:200" Tile="creatures/caste_16.bmp" DetailColor="K">
+      <stat Name="Agility" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Agility
+        &amp;c&#249;&amp;y Skills: Steady Hands (Pistol), Weak Spotter
+        &amp;c&#249;&amp;y +200 reputation with &amp;Cmysterious strangers
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Marauder" Code="e" Skills="Axe,Axe_Expertise,Axe_Dismember,Tactics_Charge,CookingAndGathering_Butchery" Gear="StartingGear_Marauder" Tile="creatures/caste_17.bmp" DetailColor="r">
+      <stat Name="Strength" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Strength
+        &amp;c&#249;&amp;y Skills: Axe Proficiency, Dismember
+        &amp;c&#249;&amp;y Butchery, Charge
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Pilgrim" Code="f" Skills="Discipline,Discipline_Meditate,Discipline_FastingWay,Discipline_IronMind,Survival,Survival_Trailblazer" Gear="StartingGear_Pilgrim" Tile="creatures/caste_18.bmp" DetailColor="y">
+      <stat Name="Willpower" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Willpower
+        &amp;c&#249;&amp;y Skills: Meditate, Fasting Way, Iron Mind
+        &amp;c&#249;&amp;y Mind's Compass
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Nomad" Code="g" Skills="Survival,Survival_SaltDesertSurvival,CookingAndGathering_Harvestry,Survival_Trailblazer,Endurance_Weathered" Gear="StartingGear_Nomad" Reputation="Issachari:200" Tile="creatures/caste_19.bmp" DetailColor="W">
+      <stat Name="Toughness" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Toughness
+        &amp;c&#249;&amp;y Starts with &amp;BRecycling Suit
+        &amp;c&#249;&amp;y Skills: Weathered, Wilderness Lore: Salt Pans
+        &amp;c&#249;&amp;y Harvestry, Mind's Compass
+        &amp;c&#249;&amp;y +200 reputation with &amp;Cthe Issachari tribe
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Scholar" Code="h" Skills="Tinkering,Tinkering_GadgetInspector,Firstaid,Firstaid_StaunchWounds,Firstaid_Heal,CookingAndGathering_Harvestry,Tactics,Customs" Class="ScholarSkills" Gear="StartingGear_Scholar" Tile="creatures/caste_20.bmp" DetailColor="C">
+      <stat Name="Intelligence" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Intelligence
+        &amp;c&#249;&amp;y Skills: Gadget Inspector, Staunch Wounds, Heal
+        &amp;c&#249;&amp;y Wilderness Lore: Random, Wilderness Lore: Random
+        &amp;c&#249;&amp;y Harvestry, Hurdle, Tactful
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Tinker" Code="i" Skills="Tinkering,Tinkering_GadgetInspector,Tinkering_LayMine,Tinkering_Disassemble,Tinkering_Repair,Tinkering_Tinker1" Gear="StartingGear_Tinker" Reputation="Barathrumites:100" Tile="creatures/caste_21.bmp" DetailColor="c">
+      <stat Name="Intelligence" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Intelligence
+        &amp;c&#249;&amp;y Skills: Gadget Inspector, Disassemble, Lay Mine
+        &amp;c&#249;&amp;y Repair, Tinker I
+        &amp;c&#249;&amp;y Begins with a number of random artifacts and scrap
+        &amp;c&#249;&amp;y +100 reputation with &amp;Cthe Barathrumites
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Warden" Code="j" Skills="LongBlades2,LongBlades2Proficiency,Shield,Shield_Block,Shield_Slam,Rifles,Rifle_SteadyHands,Pistol,Pistol_SteadyHands" Gear="StartingGear_Warden" Reputation="Wardens:300" Tile="creatures/caste_22.bmp" DetailColor="w">
+      <stat Name="Strength" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Strength
+        &amp;c&#249;&amp;y Skills: Long Blade Proficiency, Block
+        &amp;c&#249;&amp;y Shield Slam, Steady Hands (Bows and Rifles)
+        &amp;c&#249;&amp;y +300 reputation with &amp;Cthe Fellowship of Wardens
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Water Merchant" Code="k" Skills="Persuasion_SnakeOiler" Gear="StartingGear_WaterMerchant" Reputation="Water:200" Tile="creatures/caste_23.bmp" DetailColor="B">
+      <stat Name="Ego" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Ego
+        &amp;c&#249;&amp;y Skills: Snake Oiler
+        &amp;c&#249;&amp;y Allowed entrances to many settlements
+        &amp;c&#249;&amp;y for purposes of trade
+        &amp;c&#249;&amp;y Starts with trade goods
+        &amp;c&#249;&amp;y +200 reputation with &amp;Cwater barons
+      </chargeninfo>
+    </subtype>
+
+    <subtype Name="Watervine Farmer" Code="l" Skills="CookingAndGathering,CookingAndGathering_Harvestry,Axe,Axe_Expertise,Survival_SaltmarshSurvival" Gear="StartingGear_WatervineFarmer" Reputation="Joppa:100" Tile="creatures/caste_24.bmp" DetailColor="y">
+      <stat Name="Toughness" Bonus="2"></stat>
+      <chargeninfo>
+        &amp;c&#249;&amp;y &amp;C+2&amp;y Toughness
+        &amp;c&#249;&amp;y Skills: Cooking and Gathering
+        &amp;c&#249;&amp;y Harvestry
+        &amp;c&#249;&amp;y Axe Proficiency, Wilderness Lore: Marshes
+        &amp;c&#249;&amp;y Starts with access to Farmers' Markets
+        &amp;c&#249;&amp;y +100 reputation with &amp;Cthe villagers of Joppa
+      </chargeninfo>
+    </subtype>
+  </class>
+</subtypes>
