@@ -6,14 +6,15 @@ pub struct IndexContext {
 }
 
 #[derive(Serialize)]
-pub struct ValidateContextPass<> {
+pub struct ValidateContextPass {
     pub title: &'static str,
     pub form_result: Character,
 }
 
 #[derive(Serialize)]
-pub struct ValidateContextFail<> {
+pub struct ValidateContextFail {
     pub title: &'static str,
+    pub error_result: &'static str,
 }
 
 #[derive(Serialize)]
@@ -23,6 +24,6 @@ pub struct ErrorReturnContext<'a> {
 }
 
 #[derive(Serialize)]
-pub struct ErrorContext<> {
+pub struct ErrorContext {
     pub title: &'static str,
 }
